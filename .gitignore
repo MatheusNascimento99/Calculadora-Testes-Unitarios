@@ -1,0 +1,37 @@
+# Ignore arquivos de build do .NET
+bin/
+obj/
+
+# Ignore arquivos de configuração do Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Ignore arquivos de usuário do Visual Studio
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Ignore arquivos de compilação do Rider (se usar)
+.idea/
+
+# Ignore pacotes do NuGet
+*.nupkg
+# Ignore a pasta de pacotes
+packages/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de backup do sistema operacional
+Thumbs.db
+Desktop.ini
+
+# Ignore arquivos temporários do sistema operacional
+*.tmp
+*.bak
+*.swp
+
+# Ignore arquivos de configuração específicos para o Visual Studio Code
+.vscode/
