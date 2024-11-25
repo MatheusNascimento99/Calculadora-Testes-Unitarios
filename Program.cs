@@ -4,13 +4,14 @@ using System.Reflection.Metadata;
 using System.Runtime.CompilerServices;
 using Calculadora.Models;
 
-int escolha = 10;
 Metodo metodo = new();
 
 int numero;
+int menuValorInicio = 10;
 
 
-while (escolha != 0)
+#region inputNumeros
+while (menuValorInicio != 0)
 {
     Console.WriteLine("Bem vindo a Calculadora!");
     Console.WriteLine("Informe o primeiro valor:");
@@ -32,15 +33,27 @@ while (escolha != 0)
         Console.WriteLine("Informe o segundo valor:");
         valor2 = Console.ReadLine();
     }
+    #endregion
+
+    #region inputEscolhaOpcao
 
     Console.WriteLine("Escolha a ação a ser realizada:");
     Console.WriteLine("1 - Somar\n2 - Subtrair\n3 - Multiplicar\n4 - Dividir\n5 - Resto da Divisão\n6 - Potenciação\n0 - Sair");
 
-    escolha = Convert.ToInt32(Console.ReadLine());
+    string escolha = Console.ReadLine();
+    while (!int.TryParse(escolha, out numero))
+    {
+        Console.WriteLine("Entrada não válida, por favor informe apenas números!");
+        Console.WriteLine("Escolha a ação a ser realizada:");
+        escolha = Console.ReadLine();
+    }
+
     int num1 = Convert.ToInt32(valor1);
     int num2 = Convert.ToInt32(valor2);
 
-    switch (escolha)
+
+    menuValorInicio = Convert.ToInt32(escolha);
+    switch (menuValorInicio)
     {
         case 1:
             Console.WriteLine($"{num1} + {num2} = {metodo.Somar(num1, num2)}\n");
@@ -64,12 +77,13 @@ while (escolha != 0)
             Console.WriteLine("Programa Finalizado!");
             break;
         default:
-            if (escolha < 0 || escolha > 5)
+            if (menuValorInicio < 0 || menuValorInicio > 5)
             {
                 Console.WriteLine("Opção inválida, informe novamente a opção:");
             }
             break;
     }
 }
+#endregion
 
 
