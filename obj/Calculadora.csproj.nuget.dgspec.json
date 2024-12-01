@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\CalcEx\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\CalcEx\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\CalcEx\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\Calculadora\\Calculadora.csproj",
+        "projectPath": "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\CalcEx\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\ivan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\ivan\\Desktop\\Projetos GitHub\\DOTNET\\CalcEx\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
