@@ -95,4 +95,15 @@ public class CalcTestes
         // Then
         Assert.Equal(potencia, resultado);
     }
+
+    [Fact] // Lista Histórico
+    public void CapturarHistorico_Retornar_UltimaOperacao()
+    {
+        // Given
+
+        // When
+
+        // Then
+    }
+
 }
